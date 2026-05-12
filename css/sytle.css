@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background:black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+/* LOGO */
+
+.logo img{
+    height:60px;
+}
+
+/* NAVIGATION */
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+/* CAROUSEL IMAGES */
+
+.carousel-image{
+    height:90vh;
+    object-fit:cover;
+}
+
+/* CAPTION BACKGROUND */
+
+.carousel-caption{
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+/* CARD HOVER EFFECT */
+
+.card{
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+/* GALLERY IMAGES */
+
+.gallery-image{
+    height:300px;
+    width:100%;
+    object-fit:cover;
+}
